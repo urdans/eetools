@@ -11,8 +11,8 @@
     justify-content: center;
     align-items: center;
 }
-.clgray { /*i dont know why but this is not working*/
-    background-color: green; /*rgb(235,240,242);  #ececec*/
+.clgray {
+    background-color: #e7e7ee; /*rgb(235,240,242);  #ececec*/
 }
 
 .msgtext {
