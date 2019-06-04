@@ -1,0 +1,31 @@
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.ct2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.clgray { /*i dont know why but this is not working*/
+    background-color: green; /*rgb(235,240,242);  #ececec*/
+}
+
+.msgtext {
+    font-size: 0.85em;
+    font-style: italic;
+    font-weight: bold;
+}
+.gradetitle {
+    font-size: 1.25em;
+    font-weight: bold;
+    color: aquamarine;
+}
+
+.cellw{
+    width: 130px;
+}
