@@ -3,52 +3,43 @@
 
 <head th:replace="indexfragments :: head"></head>
 
-<body class="clgray">
-    <nav th:replace="indexfragments :: navi"></nav>
-    <!-- Left menu -->
-    <div class="container row mt-5"></div>
-    <div class="container row mt-2">
-        <div class="col-sm-3 border border-secondary rounded bg-white ml-2 mt-2 pt-2">
-            <h5>Basic tools</h5>
-            <ul>
-                <li>Voltage drop calculator</li>
-                <li>Conduit fill calculator</li>
-                <li>...</li>
-                <li>...</li>
-                <li>...</li>
-                <li>...</li>
-                <li>...</li>
-            </ul>
-            <h5>Advanced tools</h5>
-            <ul>
-                <li>Motor calculation</li>
-                <li>Conductor selection</li>
-                <li>Fire pump feeder</li>
-                <li>...</li>
-                <li>...</li>
-                <li>...</li>
-                <li>...</li>
-                <li>...</li>
-            </ul>
-            <h5>Other tools</h5>
-            <ul>
-                <li>...</li>
-                <li>...</li>
-                <li>...</li>
-                <li>...</li>
-            </ul>
-            <h5>Usefull links</h5>
-            <ul>
-                <li>NFPA</li>
-                <li>Mike Holt web site</li>
-                <li>...</li>
-                <li>...</li>
-                <li>...</li>
-            </ul>
-
-        </div>
-        <div class="col-sm-9">
-        </div>
-    </div>
+<body>
+    <h5>Basic tools</h5>
+    <ul>
+        <li><a href="/basictools/voltagedrop">Voltage drop calculator</a></li>
+        <li><a href="/basictools/conductorsizingpervoltagedrop">Conductor sizing per voltage drop</a></li>
+        <li>Voltage drop for equally distributed loads</li>
+        <li>Conduit fill calculator</li>
+        <li>...</li>
+        <li>...</li>
+        <li>...</li>
+        <li>...</li>
+    </ul>
+    <h5>Advanced tools</h5>
+    <ul>
+        <li>Motor calculation</li>
+        <li>Conductor selection</li>
+        <li>Fire pump feeder</li>
+        <li>...</li>
+        <li>...</li>
+        <li>...</li>
+        <li>...</li>
+        <li>...</li>
+    </ul>
+    <h5>Other tools</h5>
+    <ul>
+        <li>...</li>
+        <li>...</li>
+        <li>...</li>
+        <li>...</li>
+    </ul>
+    <h5>Usefull links</h5>
+    <ul>
+        <li>NFPA</li>
+        <li>Mike Holt web site</li>
+        <li>...</li>
+        <li>...</li>
+        <li>...</li>
+    </ul>
 </body>
 </html>
